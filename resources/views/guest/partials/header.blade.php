@@ -1,4 +1,5 @@
 <header>
+    <img src="../../public/images/dc-logo.png" alt="">
     <ul>
         @foreach ($links as $link)
         <li><a href="#!">{{ $link['name'] }}</a></li>
@@ -9,5 +10,11 @@
 <style>
     li{
         list-style-type: none;
+        display: inline-block
+    }
+
+    a{
+        color: black;
+        text-decoration: none
     }
 </style>
