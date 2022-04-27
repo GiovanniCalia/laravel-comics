@@ -1,3 +1,13 @@
 <header>
-    <h1>Questo è l'header</h1>
+    <ul>
+        @foreach ($links as $link)
+        <li><a href="#!">{{ $link['name'] }}</a></li>
+        @endforeach
+    </ul>
 </header>
+
+<style>
+    li{
+        list-style-type: none;
+    }
+</style>
