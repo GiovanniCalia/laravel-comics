@@ -1,3 +1,33 @@
-body{
-    background-color: green;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header-container{
+    width: 1000px;
+    margin: auto;
+}
+
+.bk-blue{
+    background-color: rgb(0, 130, 249);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bk-blue div{
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block
+}
+
+a{
+    color: black;
+    text-decoration: none
 }

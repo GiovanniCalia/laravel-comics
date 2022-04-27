@@ -1,20 +1,17 @@
 <header>
-    <img src="../../public/images/dc-logo.png" alt="">
-    <ul>
-        @foreach ($links as $link)
-        <li><a href="#!">{{ $link['name'] }}</a></li>
-        @endforeach
-    </ul>
+    <div>
+        <section class="bk-blue">
+            <div>dc power visa&#174;</div>
+            <div>additional dc sities</div>
+        </section>
+        <section class="header-container">
+            <img src="../../public/images/jumbotron.png" alt="">
+            <ul>
+                @foreach ($links as $link)
+                <li><a href="#!">{{ $link['name'] }}</a></li>
+                @endforeach
+            </ul>
+
+        </section>
+    </div>
 </header>
-
-<style>
-    li{
-        list-style-type: none;
-        display: inline-block
-    }
-
-    a{
-        color: black;
-        text-decoration: none
-    }
-</style>
