@@ -18,6 +18,8 @@
 
     @include('guest.partials.mainCards')
 
+    @include('guest.partials.mainCardsBlue')
+
     @include('guest.partials.footer')
     
 </body>
