@@ -50,7 +50,21 @@ Route::get('/', function () {
 
     ];
     return view('guest.home', $parametri);
-});
+})->name('home');
 
+
+
+/*
+Route::get('/charact/{id}', function ($id) {
+    $comics = collect(config('comics'));
+    $selectedComic = $comics->firstwhere('id', $id);
+    if ($selectedComic === null) abort(404);
+
+    return view('guest.character', [
+        'title' => $selectedComic['title'],
+        'product' => $selectedComic
+    ]);
+})->name('character');
+*/
 
 

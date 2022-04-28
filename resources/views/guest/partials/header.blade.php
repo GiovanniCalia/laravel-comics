@@ -1,17 +1,40 @@
-<header>
+<!--<header>
     <div>
         <section class="bk-blue">
-            <div>dc power visa&#174;</div>
-            <div>additional dc sities</div>
+            <div class="width">
+                <div>dc power visa&#174;</div>
+                <div>additional dc sities</div>
+            </div>
         </section>
         <section class="header-container">
-            <img src="../../public/images/jumbotron.png" alt="">
+            <img src="/images/dc-logo.png" alt="">
             <ul>
-                @foreach ($links as $link)
+                {{--@foreach ($links as $link)
                 <li><a href="#!">{{ $link['name'] }}</a></li>
-                @endforeach
+                @endforeach--}}
             </ul>
-
         </section>
+    </div>
+</header>-->
+
+<header>
+    <section class="bk-blue">
+        <div class="width">
+            <div>dc power visa&#174;</div>
+            <div>additional dc sities</div>
+        </div>
+    </section>
+    <div class="container">
+        <img src="/images/dc-logo.png" alt="DC logo">
+        <ul>
+            @foreach ($links as $link)
+                <li><a href="#!">{{ $link['name'] }}</a></li>
+            @endforeach
+        </ul>
+        <div class="form">
+            <div>Search</div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
     </div>
 </header>
