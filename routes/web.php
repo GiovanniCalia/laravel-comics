@@ -14,42 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $parametri = [ 
-        'links' => [
-            [
-                'name' => 'CHARACTERS'
-            ],
-            [
-                'name' => 'COMICS'
-            ],
-            [
-                'name' => 'MOVIES'
-            ],
-            [
-                'name' => 'TV'
-            ],
-            [
-                'name' => 'GAMES'
-            ],
-            [
-                'name' => 'COLLECTIBLES'
-            ],
-            [
-                'name' => 'VIDEOS'
-            ],
-            [
-                'name' => 'FANS'
-            ],
-            [
-                'name' => 'NEWS'
-            ],
-            [
-                'name' => 'SHOP'
-            ],
-        ]
-
-    ];
-    return view('guest.home', $parametri);
+    $parametri = config('headerLinks');
+    $cardss = config('comics');
+    return view('guest.home', $parametri, $cardss);
 })->name('home');
 
 

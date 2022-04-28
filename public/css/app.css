@@ -12,44 +12,45 @@ html {
 .bk-blue {
   background-color: rgb(0, 130, 249);
   text-transform: uppercase;
+  font-size: 80%;
+  padding: 0.3rem;
 }
 .bk-blue .width {
   width: 1200px;
   margin: auto;
   display: flex;
   justify-content: flex-end;
+  color: white;
 }
 .bk-blue .width div {
   margin-left: 2rem;
 }
 
-.container {
+.container-header {
   width: 1200px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-img {
+.container-header img {
   width: 8%;
 }
-
-li {
+.container-header li {
   display: inline-block;
   margin: 0 0.5rem;
   text-transform: uppercase;
   line-height: 8rem;
   border-bottom: 7px solid transparent;
 }
-li:hover {
+.container-header li:hover {
   border-bottom: 7px solid rgb(0, 130, 249);
 }
-li a {
+.container-header li a {
   text-decoration: none;
   color: black;
 }
-li a:active {
+.container-header li a:active {
   color: rgb(0, 130, 249);
 }
 
@@ -61,6 +62,7 @@ li a:active {
 }
 .form div {
   margin-right: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 /* MAINJUMBOTRON */
@@ -68,9 +70,10 @@ li a:active {
   background-image: url(/images/jumbotron.jpg);
   background-size: cover;
   height: 300px;
-  margin-bottom: 3rem;
 }
 .main-jumbotron .container {
+  width: 1200px;
+  margin: auto;
   position: relative;
   height: 100%;
 }
@@ -87,5 +90,51 @@ li a:active {
   margin-bottom: -24.945px;
 }
 .main-jumbotron .container button:hover {
+  cursor: pointer;
+}
+
+/* MAIN CARDS */
+main {
+  background-color: black;
+}
+
+.container-cards {
+  width: 1200px;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.container-cards ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.container-cards li {
+  width: calc(16.6666666667% - 2rem);
+  margin: 1rem;
+}
+.container-cards li div {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 1rem;
+  text-align: start;
+}
+.container-cards li img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.container-cards button {
+  padding: 1rem 4rem;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  background-color: rgb(0, 130, 249);
+}
+.container-cards button:hover {
   cursor: pointer;
 }
