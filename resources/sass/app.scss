@@ -264,3 +264,51 @@ main{
         }
     }
 }
+
+/* FOOTER */
+
+
+footer{
+    background-color: rgb(48, 48, 48);
+
+    .container-footer{
+
+      width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .btn{
+      text-transform: uppercase;
+      padding: 0.8rem;
+      color: white;
+      background-color: transparent;
+      border: 2px solid $blue_color;
+  
+      &:hover{
+        cursor: pointer;
+      }
+    }
+
+    .images{
+        display: flex;
+        align-items: center;
+  
+        div{
+          text-transform: uppercase;
+          color: $blue_color;
+          line-height: 5rem;
+          margin-right: 2rem;
+  
+          &:hover{
+            cursor: pointer;
+          }
+        }
+  
+        img{
+          margin-right: 1rem;
+        }
+    }
+}

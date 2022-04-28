@@ -221,3 +221,41 @@ main {
   text-decoration: none;
   color: grey;
 }
+
+/* FOOTER */
+footer {
+  background-color: rgb(48, 48, 48);
+}
+footer .container-footer {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .btn {
+  text-transform: uppercase;
+  padding: 0.8rem;
+  color: white;
+  background-color: transparent;
+  border: 2px solid rgb(0, 130, 249);
+}
+footer .btn:hover {
+  cursor: pointer;
+}
+footer .images {
+  display: flex;
+  align-items: center;
+}
+footer .images div {
+  text-transform: uppercase;
+  color: rgb(0, 130, 249);
+  line-height: 5rem;
+  margin-right: 2rem;
+}
+footer .images div:hover {
+  cursor: pointer;
+}
+footer .images img {
+  margin-right: 1rem;
+}
