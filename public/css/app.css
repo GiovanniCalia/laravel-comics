@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Raleway", sans-serif;
+}
+
 /* HEADER */
 .bk-blue {
   background-color: rgb(0, 130, 249);
@@ -57,4 +61,31 @@ li a:active {
 }
 .form div {
   margin-right: 0.5rem;
+}
+
+/* MAINJUMBOTRON */
+.main-jumbotron {
+  background-image: url(/images/jumbotron.jpg);
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 3rem;
+}
+.main-jumbotron .container {
+  position: relative;
+  height: 100%;
+}
+.main-jumbotron .container button {
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(0, 130, 249);
+  border: none;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -24.945px;
+}
+.main-jumbotron .container button:hover {
+  cursor: pointer;
 }

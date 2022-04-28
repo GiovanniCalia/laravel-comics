@@ -7,6 +7,10 @@
 
 $blue_color: rgb(0, 130, 249);
 
+
+html{
+    font-family: 'Raleway', sans-serif;
+}
 /* HEADER */
 
 .bk-blue{
@@ -68,4 +72,37 @@ li {
     div{
         margin-right: 0.5rem;
     }
+}
+
+/* MAINJUMBOTRON */
+
+
+.main-jumbotron{
+    background-image: url(/images/jumbotron.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 3rem;
+
+
+    .container{
+        position: relative;
+        height: 100%;
+
+        button{
+            padding: 0.7rem;
+            font-size: 1.5rem;
+            color: white;
+            background-color: $blue_color;
+            border: none;
+            text-transform: uppercase;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-bottom: calc(-49.89px / 2);
+          
+            &:hover{
+              cursor: pointer;
+            }
+        }
+    }   
 }

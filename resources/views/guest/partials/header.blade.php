@@ -1,22 +1,3 @@
-<!--<header>
-    <div>
-        <section class="bk-blue">
-            <div class="width">
-                <div>dc power visa&#174;</div>
-                <div>additional dc sities</div>
-            </div>
-        </section>
-        <section class="header-container">
-            <img src="/images/dc-logo.png" alt="">
-            <ul>
-                {{--@foreach ($links as $link)
-                <li><a href="#!">{{ $link['name'] }}</a></li>
-                @endforeach--}}
-            </ul>
-        </section>
-    </div>
-</header>-->
-
 <header>
     <section class="bk-blue">
         <div class="width">
