@@ -12,7 +12,7 @@
         <button>load more</button>
     </div>
 
-    {{--
+{{--
     <div class="second-main">
         <div class="container">
             <ul class="ul-images">
@@ -28,4 +28,41 @@
         </div>
     </div>--}}
 
+
+    <div class="second-main">
+        <div class="container-blue-cards">
+            <ul class="ul-images">
+                <li class="li-inline-block">
+                    <a href="#!">
+                        <img src="/images/buy-comics-digital-comics.png" alt="">
+                        <div>DIGITAL COMICS</div>
+                    </a>
+                </li>
+                <li class="li-inline-block">
+                    <a href="#!">
+                        <img src="/images/buy-comics-merchandise.png" alt="">
+                        <div>DC MERCHANDISE</div>
+                    </a>
+                </li>
+                <li class="li-inline-block">
+                    <a href="#!">
+                        <img src="/images/buy-comics-subscriptions.png" alt="">
+                        <div>SUBSCRIPTION</div>
+                    </a>
+                </li>
+                <li class="li-inline-block">
+                    <a href="#!">
+                        <img src="/images/buy-comics-shop-locator.png" alt="">
+                        <div>COMIC SHOP LOCATOR</div>
+                    </a>
+                </li>
+                <li class="li-inline-block">
+                    <a href="#!">
+                        <img src="/images/buy-dc-power-visa.svg" alt="">
+                        <div>DC POWER VISA</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </main>

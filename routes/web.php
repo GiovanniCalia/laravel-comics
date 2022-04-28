@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $parametri = config('headerLinks');
     $cards = config('comics');
-    //$photos = config('photo');
+    $photos = config('photo');
 
-    return view('guest.home', $parametri, $cards);
+    return view('guest.home', $parametri, $cards, $photos);
 })->name('home');
 
 
