@@ -1,10 +1,9 @@
 
-
 <main>
     <div class="container-cards">
         <ul>
             @foreach ($cards as $card)
-            <li v-for="element in links" :key="element">
+            <li>
                 <img src="{{ $card['thumb'] }}" alt="">
                 <div>{{ $card['series'] }}</div>
             </li>
@@ -12,5 +11,21 @@
         </ul>
         <button>load more</button>
     </div>
-</main>
 
+    {{--
+    <div class="second-main">
+        <div class="container">
+            <ul class="ul-images">
+                @foreach ($dc as $comic)
+                    <li class="li-inline-block">
+                        <a href="#!">
+                           <img src="{{ $comic['image'] }}" alt="">
+                           <div>{{ $comic['text'] }}</div>
+                        </a>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+    </div>--}}
+
+</main>

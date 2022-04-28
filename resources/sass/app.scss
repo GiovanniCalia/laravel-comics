@@ -12,6 +12,10 @@ html{
     font-family: 'Raleway', sans-serif;
 }
 
+li{
+    list-style-type: none;
+}
+
 /* HEADER */
 
 .bk-blue{
@@ -21,7 +25,7 @@ html{
     padding: 0.3rem;
     
     .width{
-        width: 1200px;
+        width: 1100px;
         margin: auto;
         display: flex;
         justify-content: flex-end;
@@ -34,7 +38,7 @@ html{
 }
 
 .container-header{
-    width: 1200px;
+    width: 1100px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -90,7 +94,7 @@ html{
 
 
     .container{
-        width: 1200px;
+        width: 1100px;
         margin: auto;
         position: relative;
         height: 100%;
@@ -122,7 +126,7 @@ main{
 }
 
 .container-cards{
-    width: 1200px;
+    width: 1100px;
     margin: auto;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -164,4 +168,40 @@ main{
             cursor: pointer;
         }
     }
+}
+
+.second-main{
+    background-color: $blue_color;
+
+    .container-blue-cards{
+        width: 1100px;
+        margin: auto;
+    }
+
+    .ul-images {
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .li-inline-block{
+        margin: 3rem 0;
+        width: 220px;
+      
+        a{
+          text-transform: uppercase;
+          text-decoration: none;
+          color: white;
+          display: flex;
+          align-items: center;
+      
+          img{
+            width: 12%;
+            margin-right: 0.4rem;
+          }
+      
+        }
+    }
+
+
 }

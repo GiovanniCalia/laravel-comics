@@ -33,7 +33,6 @@ return [
             'name' => 'SHOP'
         ],
     ]
-
 ]
 
 ?>
